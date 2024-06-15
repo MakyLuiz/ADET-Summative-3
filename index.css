@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://cdn.wallpapersafari.com/70/58/IoYXgE.jpg');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ffcf77;
+    color: #000000;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #ff6347;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
